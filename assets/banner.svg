@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Accent Glowing Gradients -->
+    <linearGradient id="accent-cyan-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="pill-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.5"/>
+    </pattern>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glow-cyan" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0d14" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-purple" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a0d14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    /* Dynamic pulsing and flow animations */
+    @keyframes pulseOrb {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.15); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -100; }
+    }
+    @keyframes subtleRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .bg-rect { fill: url(#bg-grad); }
+    .grid-layer { fill: url(#grid); }
+    .orb-cyan { animation: pulseOrb 6s ease-in-out infinite; transform-origin: 250px 150px; }
+    .orb-purple { animation: pulseOrb 7s ease-in-out infinite; transform-origin: 950px 250px; }
+    
+    .circuit-line {
+      stroke: #38bdf8;
+      stroke-width: 1.5;
+      stroke-dasharray: 8, 12;
+      stroke-opacity: 0.45;
+      animation: dashCycle 8s linear infinite;
+    }
+    .circuit-line-purple {
+      stroke: #c084fc;
+      stroke-width: 1.5;
+      stroke-dasharray: 6, 10;
+      stroke-opacity: 0.4;
+      animation: dashCycle 10s linear infinite reverse;
+    }
+
+    .particle { animation: floatParticle 4s ease-in-out infinite; }
+    .p1 { animation-delay: 0s; }
+    .p2 { animation-delay: 1.5s; }
+    .p3 { animation-delay: 2.8s; }
+
+    /* Static Foreground Typography */
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .gradient-accent {
+      fill: url(#accent-cyan-purple);
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      fill: #94a3b8;
+    }
+    .tagline-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      fill: #38bdf8;
+    }
+    .pill-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 12.5px;
+      font-weight: 600;
+      fill: #cbd5e1;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" class="bg-rect"/>
+  <rect width="1200" height="400" class="grid-layer"/>
+
+  <!-- Glowing Animated Background Orbs -->
+  <circle cx="220" cy="140" r="260" fill="url(#glow-cyan)" class="orb-cyan"/>
+  <circle cx="980" cy="260" r="280" fill="url(#glow-purple)" class="orb-purple"/>
+
+  <!-- Dynamic Abstract Flow Circuit Lines (Placed safely in background edges) -->
+  <g fill="none">
+    <path d="M 50,340 C 250,310 400,370 600,340 C 800,310 1000,380 1150,330" class="circuit-line"/>
+    <path d="M 50,80 C 300,120 500,40 750,90 C 950,130 1100,60 1160,80" class="circuit-line-purple"/>
+    <path d="M 100,200 L 180,200 L 220,240 L 320,240" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <path d="M 880,160 L 960,160 L 1020,110 L 1100,110" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Ambient Light Particles -->
+  <circle cx="180" cy="200" r="3" fill="#38bdf8" class="particle p1"/>
+  <circle cx="1020" cy="110" r="3.5" fill="#c084fc" class="particle p2"/>
+  <circle cx="560" cy="60" r="2.5" fill="#818cf8" class="particle p3"/>
+  <circle cx="850" cy="350" r="3" fill="#38bdf8" class="particle p2"/>
+
+  <!-- Foreground Main Content Container (Guaranteed 100% Crisp Visibility) -->
+  <!-- Top Pill / Badge -->
+  <g transform="translate(435, 48)">
+    <rect width="330" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="20" cy="16" r="4" fill="#38bdf8"/>
+    <text x="35" y="21" class="tagline-text">CURATED AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- Title & Headline -->
+  <g transform="translate(600, 145)" text-anchor="middle">
+    <text class="title-text">
+      Awesome <tspan class="gradient-accent">Lightweight AI Coding</tspan> Assistant
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 190)" text-anchor="middle">
+    <text class="subtitle-text">
+      Ultra-fast local autocomplete, zero-bloat CLI agents, and minimalist editor copilots
+    </text>
+  </g>
+
+  <!-- Feature Metric / Category Badges (Static Foreground Dock) -->
+  <g transform="translate(170, 250)">
+    <!-- Pill 1: Terminal & CLI Agents -->
+    <g transform="translate(0, 0)">
+      <rect width="185" height="42" rx="10" fill="url(#pill-glow)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="18" y="26" font-size="16">⚡</text>
+      <text x="44" y="26" class="pill-label">Terminal AI Agents</text>
+    </g>
+
+    <!-- Pill 2: Fast FIM & Autocomplete -->
+    <g transform="translate(205, 0)">
+      <rect width="195" height="42" rx="10" fill="url(#pill-glow)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="18" y="26" font-size="16">🚀</text>
+      <text x="44" y="26" class="pill-label">Sub-100ms Local FIM</text>
+    </g>
+
+    <!-- Pill 3: Neovim & Emacs Plugins -->
+    <g transform="translate(420, 0)">
+      <rect width="210" height="42" rx="10" fill="url(#pill-glow)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="18" y="26" font-size="16">🧩</text>
+      <text x="44" y="26" class="pill-label">Neovim &amp; Emacs Plugins</text>
+    </g>
+
+    <!-- Pill 4: Privacy & Zero Telemetry -->
+    <g transform="translate(650, 0)">
+      <rect width="210" height="42" rx="10" fill="url(#pill-glow)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="18" y="26" font-size="16">🔒</text>
+      <text x="44" y="26" class="pill-label">100% Local &amp; Private</text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Border Indicator -->
+  <line x1="200" y1="360" x2="1000" y2="360" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="600" cy="360" r="3" fill="#38bdf8"/>
+</svg>

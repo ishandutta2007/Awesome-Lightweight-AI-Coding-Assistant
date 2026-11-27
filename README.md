@@ -1,60 +1,55 @@
-# Awesome-Lightweight-AI-Coding-Assistant
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Lightweight AI Coding Assistant Banner" width="100%" />
+</p>
 
-# Awesome-Lightweight-AI-Coding-Assistant
+# 🚀 Awesome Lightweight AI Coding Assistant
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishaddutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>🌟 Top Lightweight AI Coding Assistants, Fast Autocomplete Engines, Terminal-Based AI Agents & Minimalist IDE Plugins 🌟</strong>
+</p>
 
-Top Lightweight AI Coding Assistant (Opensource) 🌟 Star if you like it! 🌟
-
-
-
-A curated list of top lightweight AI coding assistants, fast autocomplete engines, terminal-based AI pair programmers, minimalist IDE plugins, and local LLM coding agents—featuring commercial SaaS/Hosted platforms alongside their open-source equivalents.
-
-
-
----
-
-
-
-## Table of Contents
-
-
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
-
-  - [Lightweight Terminal & CLI AI Coding Agents](#lightweight-terminal--cli-ai-coding-agents)
-
-  - [Minimalist VS Code, JetBrains & Multi-IDE Extensions](#minimalist-vs-code-jetbrains--multi-ide-extensions)
-
-  - [Neovim, Vim & Emacs Lightweight AI Plugins](#neovim-vim--emacs-lightweight-ai-plugins)
-
-  - [Ultra-Fast Local Autocomplete & FIM (Fill-In-the-Middle) Engines](#ultra-fast-local-autocomplete--fim-fill-in-the-middle-engines)
-
-  - [Open-Source AI-Native Lightweight Editors](#open-source-ai-native-lightweight-editors)
-
-- [Contributing](#contributing)
-
-
+<p align="center">
+  <em>A curated, SEO-optimized directory of lightning-fast, zero-bloat AI code assistants, offline local Fill-In-the-Middle (FIM) autocomplete models, terminal-first AI pair programmers, and lightweight Neovim/Emacs/VS Code extensions—comparing commercial hosted SaaS platforms against top-rated open-source alternatives.</em>
+</p>
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source Equivalents & Tools](#-open-source-equivalents--tools)
+  - [⚡ Lightweight Terminal & CLI AI Coding Agents](#-lightweight-terminal--cli-ai-coding-agents)
+  - [🧩 Minimalist VS Code, JetBrains & Multi-IDE Extensions](#-minimalist-vs-code-jetbrains--multi-ide-extensions)
+  - [📝 Neovim, Vim & Emacs Lightweight AI Plugins](#-neovim-vim--emacs-lightweight-ai-plugins)
+  - [🏎️ Ultra-Fast Local Autocomplete & FIM Engines](#️-ultra-fast-local-autocomplete--fim-engines)
+  - [💻 Open-Source AI-Native Lightweight Editors](#-open-source-ai-native-lightweight-editors)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
 
-## Sector Overview & Market Dynamics
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global AI coding assistant market is estimated between **$9.3B and $11.2B in 2026** (expanding rapidly from ~$4.2B–$8.5B in 2024–2025 at a ~25–32% CAGR). The sector exhibits a **hybrid market structure**: while the enterprise seat distribution and frontier infrastructure layer remain **heavily concentrated** among mega-cap tech giants and breakout AI labs (Microsoft/GitHub, Amazon, Alphabet, Anysphere/Cursor), the developer application layer and tooling interface form-factors are **moderately to highly fragmented** as terminal-based coding agents, specialized IDE plugins, and open-source local LLM engines continuously challenge traditional subscription copilot models.
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 Commercial, cloud-hosted AI coding assistants, proprietary IDE autocomplete engines, and managed developer copilot services.
 
-| Company / Product | Size (Valuation / Revenue) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Description |
+| 🏢 Company / Product | 💰 Size (Valuation / Revenue) | 🏷️ Pricing (Starting Paid Tier) | 🎁 Free Tier / Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Amazon Q Developer](https://amazon.com)** | **~$2.1T+ Market Cap** (Amazon) | $19 / user / month (Pro) | **Free Forever**: 50 agentic requests/month, 50 security scans/month, and 1,000 LOC/month code transformations via AWS Builder ID. | AWS-managed generative AI coding assistant for inline code generation, security scanning, and cloud architecture guidance. |
 | **[GitHub Copilot](https://github.com)** | **~$3.1T+ Market Cap** (Parent: Microsoft; GitHub ARR ~$2B+) | $10 / month (Copilot Pro) | **Free Forever**: 2,000 code completions/month and restricted basic Copilot Chat/agent allowances for individuals. | Industry-standard cloud AI pair programmer offering inline code completions, chat, and workspace agents across major IDEs. |
@@ -67,118 +62,91 @@ Commercial, cloud-hosted AI coding assistants, proprietary IDE autocomplete engi
 | **[Supermaven](https://supermaven.com)** | **~$50M–$100M Valuation** ($12M raised; acquired by Cursor/Anysphere) | $10 / month (Pro - standalone legacy) | **Free Forever**: Standalone tier provided fast inline completions with a reduced 300,000-token context window (core engine now merged into Cursor Tab). | Ultra-low-latency commercial code completion engine featuring a 1-million-token context window for rapid inline suggestions. |
 | **[Continue.dev Hub](https://continue.dev)** | **$5.6M Venture Funding** (Acquired by Cursor/Anysphere) | $10 / developer / month (Team Hub - legacy) | **Free Forever (Solo Tier)**: Core client is free and uncapped with Bring-Your-Own-Key (BYOK) or local models (Ollama/llama.cpp); hosted Hub retired post-acquisition. | Hosted cloud platform by Continue for sharing, managing, and governing custom AI coding assistants and blocks across teams. |
 
+---
 
+## 🔓 Open-Source Equivalents & Tools
+
+Free, open-source software (FOSS) lightweight coding agents, terminal pair programmers, local autocomplete engines, and zero-bloat editor plugins sorted by GitHub popularity.
+
+### ⚡ Lightweight Terminal & CLI AI Coding Agents
+
+* **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** [![GitHub stars](https://img.shields.io/github/stars/OpenInterpreter/open-interpreter?style=social&color=white)](https://github.com/OpenInterpreter/open-interpreter/stargazers) - Open-source, local-first code execution and terminal agent that lets language models run Python, Bash, JavaScript, and shell commands on your machine.
+* **[Goose](https://github.com/block/goose)** [![GitHub stars](https://img.shields.io/github/stars/block/goose?style=social&color=white)](https://github.com/block/goose/stargazers) - Open-source, extensible on-machine AI developer agent from Block capable of autonomously editing multi-file projects, running terminal scripts, and connecting to Model Context Protocol (MCP) servers.
+* **[Aider](https://github.com/paul-gauthier/aider)** [![GitHub stars](https://img.shields.io/github/stars/paul-gauthier/aider?style=social&color=white)](https://github.com/paul-gauthier/aider/stargazers) - High-speed terminal AI pair programmer that writes and edits code across multiple files in your local git repository with automated, descriptive git commits.
+* **[Crush](https://github.com/charmbracelet/crush)** [![GitHub stars](https://img.shields.io/github/stars/charmbracelet/crush?style=social&color=white)](https://github.com/charmbracelet/crush/stargazers) - Glamorous, minimalist command-line AI assistant crafted in Go by Charm for fast inline explanations, shell script generation, and terminal workflows.
+* **[Devika](https://github.com/stitionai/devika)** [![GitHub stars](https://img.shields.io/github/stars/stitionai/devika?style=social&color=white)](https://github.com/stitionai/devika/stargazers) - Open-source agentic software engineer capable of understanding high-level instructions, searching the web, planning, and autonomously writing source code.
+* **[Plandex](https://github.com/plandex-ai/plandex)** [![GitHub stars](https://img.shields.io/github/stars/plandex-ai/plandex?style=social&color=white)](https://github.com/plandex-ai/plandex/stargazers) - Open-source terminal AI coding engine architected for large, multi-stage refactoring tasks with sandboxed diff tracking, version control, and rollback capability.
+* **[LLM](https://github.com/simonw/llm)** [![GitHub stars](https://img.shields.io/github/stars/simonw/llm?style=social&color=white)](https://github.com/simonw/llm/stargazers) - Lightweight, modular CLI utility and Python library by Simon Willison for piping text, code snippets, and terminal logs into local or remote LLMs.
+* **[ShellGPT (sgpt)](https://github.com/TheR1D/shell_gpt)** [![GitHub stars](https://img.shields.io/github/stars/TheR1D/shell_gpt?style=social&color=white)](https://github.com/TheR1D/shell_gpt/stargazers) - Clean, fast command-line AI assistant for generating shell commands, refactoring bash scripts, and querying code directly in your terminal.
+* **[AIChat](https://github.com/sigoden/aichat)** [![GitHub stars](https://img.shields.io/github/stars/sigoden/aichat?style=social&color=white)](https://github.com/sigoden/aichat/stargazers) - All-in-one, ultra-lightweight CLI tool and REPL written in Rust supporting 20+ LLM providers, local RAG, shell execution, and custom roles.
+* **[Nanocoder](https://github.com/Nano-Collective/nanocoder)** [![GitHub stars](https://img.shields.io/github/stars/Nano-Collective/nanocoder?style=social&color=white)](https://github.com/Nano-Collective/nanocoder/stargazers) - Minimalist, local-first CLI coding agent supporting multiple model endpoints, MCP tool integrations, and direct repository modifications with near-zero overhead.
 
 ---
 
+### 🧩 Minimalist VS Code, JetBrains & Multi-IDE Extensions
 
-
-## Open-Source Equivalents & Tools
-
-
-
-Free and open-source software (FOSS) lightweight coding agents, terminal pair programmers, local autocomplete engines, and zero-bloat editor plugins.
-
-
-
-### Lightweight Terminal & CLI AI Coding Agents
-
-
-
-* **[Nanocoder (Nano-Collective)](https://github.com)** - Lightweight, local-first open-source CLI coding agent supporting multiple LLM providers, tool calling, and MCP with minimal overhead.
-
-* **[Aider](https://github.com)** - Fast, terminal-based open-source AI pair programmer that edits multiple files directly in your local Git repository with automatic commits.
-
-* **[OpenCode](https://github.com)** - Sleek, open-source terminal UI (TUI) coding agent built in Go/TypeScript supporting local and cloud models with LSP integration.
-
-* **[Goose (Block)](https://github.com)** - Extensible, open-source on-machine AI developer agent capable of executing shell commands, editing files, and connecting to MCP servers.
-
-* **[Plandex](https://github.com)** - Open-source terminal-based AI coding engine designed for large, multi-step tasks with sandboxed diff review and version control.
-
-* **[ShellGPT (sgpt)](https://github.com)** - Lightweight open-source command-line productivity tool powered by LLMs for generating shell commands, code snippets, and quick fixes.
-
-* **[llm (Simon Willison)](https://github.com)** - Minimalist open-source CLI utility and Python library for interacting with local and remote LLMs directly from your shell pipelines.
-
-
-
-### Minimalist VS Code, JetBrains & Multi-IDE Extensions
-
-
-
-* **[Continue](https://github.com)** - The leading open-source AI code assistant for VS Code and JetBrains enabling custom tab autocomplete, chat, and local Ollama models.
-
-* **[Cline](https://github.com)** - Open-source autonomous coding agent inside VS Code capable of creating/editing files, running terminal commands, and inspecting diffs step-by-step.
-
-* **[Roo Code](https://github.com)** - Community-driven, high-speed fork of Cline featuring customizable agent modes, granular auto-approval, and local LLM optimization.
-
-* **[Twinny](https://github.com)** - Privacy-first, lightweight open-source AI code completion and chat extension for VS Code built specifically for Ollama and llama.cpp.
-
-* **[Cody (Open-Source Client)](https://github.com)** - Open-source VS Code and JetBrains client for Sourcegraph Cody supporting local models and context-aware code search.
-
-* **[Refact.ai (Open-Source Core)](https://github.com)** - Self-hosted, open-source AI coding assistant with fast Fill-In-the-Middle (FIM) autocomplete, refactoring, and local GPU support.
-
-
-
-### Neovim, Vim & Emacs Lightweight AI Plugins
-
-
-
-* **[Avante.nvim](https://github.com)** - Lightweight, Cursor-like AI coding experience inside Neovim featuring inline diff previews, side-by-side chat, and one-keystroke apply.
-
-* **[CodeCompanion.nvim](https://github.com)** - Fast, extensible open-source AI coding plugin for Neovim supporting inline assistants, agents, and local/cloud adapters.
-
-* **[minuet-ai.nvim](https://github.com)** - Ultra-lightweight Neovim plugin delivering low-latency, blink.cmp/nvim-cmp inline AI code completions from local or cloud LLMs.
-
-* **[llm.nvim (Hugging Face)](https://github.com)** - Official lightweight Neovim plugin by Hugging Face for fast local/hosted LLM code completion with minimal dependencies.
-
-* **[gp.nvim (GPT Prompt)](https://github.com)** - Clean, zero-bloat Neovim plugin for conversational AI coding, inline code rewriting, and Whisper voice-to-code workflows.
-
-* **[ellama / gptel (Emacs)](https://github.com)** - Simple, asynchronous, lightweight LLM client for GNU Emacs supporting Ollama, llama.cpp, and major APIs with zero external dependencies.
-
-
-
-### Ultra-Fast Local Autocomplete & FIM (Fill-In-the-Middle) Engines
-
-
-
-* **[Tabby](https://github.com)** - Self-hosted, open-source AI coding assistant written in Rust offering sub-100ms Fill-In-the-Middle autocomplete and repository RAG.
-
-* **[llama.cpp (FIM Server)](https://github.com)** - Ultra-fast C/C++ LLM inference engine featuring built-in `/infill` endpoints for zero-bloat local IDE code completion on CPU and GPU.
-
-* **[Ollama](https://github.com)** - Lightweight local model runner powering Qwen2.5-Coder, DeepSeek-Coder, and StarCoder2 for private offline coding assistance.
-
-* **[FauxPilot](https://github.com)** - Open-source, self-hosted server mimicking the GitHub Copilot API using local models on NVIDIA GPUs.
-
-* **[CodeGeeX4](https://github.com)** - Open-weights multilingual code generation model optimized for fast local inference and lightweight IDE plugins.
-
-
-
-### Open-Source AI-Native Lightweight Editors
-
-
-
-* **[Zed](https://github.com)** - High-performance, GPU-accelerated code editor written in Rust featuring native inline AI edits, agentic panels, and Ollama support.
-
-* **[Void](https://github.com)** - Open-source alternative to Cursor built on VS Code, giving developers full control over local and cloud LLM providers with zero telemetry.
-
-* **[Melty](https://github.com)** - Lightweight open-source AI code editor where every AI change maps cleanly to Git commits for effortless review.
-
-
+* **[Cline](https://github.com/cline/cline)** [![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers) - Autonomous open-source AI coding assistant in VS Code that inspects project file trees, writes code, executes terminal commands, and requests approval for diffs.
+* **[Continue](https://github.com/continuedev/continue)** [![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers) - Highly customizable, leading open-source AI coding extension for VS Code and JetBrains supporting custom tab autocomplete, chat, and local models via Ollama.
+* **[Roo Code](https://github.com/RooCodeInc/Roo-Code)** [![GitHub stars](https://img.shields.io/github/stars/RooCodeInc/Roo-Code?style=social&color=white)](https://github.com/RooCodeInc/Roo-Code/stargazers) - Community-driven autonomous coding assistant with specialized prompt modes, custom tool auto-approvals, and fine-tuned local model support.
+* **[Sweep](https://github.com/sweepai/sweep)** [![GitHub stars](https://img.shields.io/github/stars/sweepai/sweep?style=social&color=white)](https://github.com/sweepai/sweep/stargazers) - Open-source AI junior developer that turns GitHub issues into clean Pull Requests with automated testing, bug fixes, and refactoring.
+* **[Twinny](https://github.com/rjmacarthy/twinny)** [![GitHub stars](https://img.shields.io/github/stars/rjmacarthy/twinny?style=social&color=white)](https://github.com/rjmacarthy/twinny/stargazers) - Privacy-focused, zero-telemetry AI code completion and chat extension for VS Code designed from the ground up for local inference via Ollama and llama.cpp.
+* **[Refact.ai Core](https://github.com/smallcloudai/refact)** [![GitHub stars](https://img.shields.io/github/stars/smallcloudai/refact?style=social&color=white)](https://github.com/smallcloudai/refact/stargazers) - Self-hosted open-source AI code assistant architecture offering lightning-fast Fill-In-the-Middle (FIM) autocomplete, refactoring, and on-premise GPU support.
 
 ---
 
+### 📝 Neovim, Vim & Emacs Lightweight AI Plugins
 
+* **[Avante.nvim](https://github.com/yetone/avante.nvim)** [![GitHub stars](https://img.shields.io/github/stars/yetone/avante.nvim?style=social&color=white)](https://github.com/yetone/avante.nvim/stargazers) - Cursor-inspired AI coding environment for Neovim featuring side-by-side chat, inline diff applications, and fast token generation.
+* **[CodeCompanion.nvim](https://github.com/olimorris/codecompanion.nvim)** [![GitHub stars](https://img.shields.io/github/stars/olimorris/codecompanion.nvim?style=social&color=white)](https://github.com/olimorris/codecompanion.nvim/stargazers) - Extensible, zero-bloat Neovim AI coding plugin with inline code generation, customizable agents, and native adapters for local and cloud models.
+* **[gptel](https://github.com/karthink/gptel)** [![GitHub stars](https://img.shields.io/github/stars/karthink/gptel?style=social&color=white)](https://github.com/karthink/gptel/stargazers) - Clean, async LLM client for Emacs supporting multiple model backends (Ollama, llama.cpp, Claude, GPT) with zero external package dependencies.
+* **[Minuet AI](https://github.com/milanglacier/minuet-ai.nvim)** [![GitHub stars](https://img.shields.io/github/stars/milanglacier/minuet-ai.nvim?style=social&color=white)](https://github.com/milanglacier/minuet-ai.nvim/stargazers) - Ultra-lightweight Neovim completion provider delivering low-latency, blink.cmp and nvim-cmp inline suggestions from local or remote LLMs.
+* **[gp.nvim](https://github.com/Robitx/gp.nvim)** [![GitHub stars](https://img.shields.io/github/stars/Robitx/gp.nvim?style=social&color=white)](https://github.com/Robitx/gp.nvim/stargazers) - Minimalist Neovim plugin for chat conversations, inline code rewriting, and voice-to-code speech transcription without bloated dependencies.
+* **[llm.nvim](https://github.com/huggingface/llm.nvim)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/llm.nvim?style=social&color=white)](https://github.com/huggingface/llm.nvim/stargazers) - Official lightweight Neovim plugin by Hugging Face for fast Fill-In-the-Middle code completion using local or hosted inference endpoints.
 
-## Contributing
+---
 
+### 🏎️ Ultra-Fast Local Autocomplete & FIM Engines
 
+* **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) - Leading lightweight runner for local AI models, serving Qwen2.5-Coder, DeepSeek-Coder, and StarCoder with low latency across macOS, Linux, and Windows.
+* **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers) - High-performance C/C++ LLM inference engine with zero dependencies, featuring native `/infill` server endpoints for sub-100ms IDE code autocomplete.
+* **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers) - Self-hosted, lightweight AI coding assistant written in Rust featuring blazing-fast Fill-In-the-Middle autocomplete and repository-wide context indexing.
+* **[Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)** [![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Coder?style=social&color=white)](https://github.com/QwenLM/Qwen2.5-Coder/stargazers) - Premier open-weights coding foundation model series (0.5B to 32B parameters) optimized for high-speed local inference and precise code generation.
+* **[FauxPilot](https://github.com/fauxpilot/fauxpilot)** [![GitHub stars](https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=social&color=white)](https://github.com/fauxpilot/fauxpilot/stargazers) - Open-source, self-hosted backend that replicates the GitHub Copilot API using local LLMs on NVIDIA GPUs for seamless editor integration.
+* **[CodeGeeX4](https://github.com/THUDM/CodeGeeX4)** [![GitHub stars](https://img.shields.io/github/stars/THUDM/CodeGeeX4?style=social&color=white)](https://github.com/THUDM/CodeGeeX4/stargazers) - Multilingual open-weights code generation model optimized for low-resource local deployment and fast IDE completion plugins.
 
-Contributions are welcome! Feel free to open a Pull Request to add more lightweight open-source AI coding assistants, terminal agents, Neovim/Emacs plugins, or local FIM autocomplete engines.
+---
 
+### 💻 Open-Source AI-Native Lightweight Editors
 
+* **[Zed](https://github.com/zed-industries/zed)** [![GitHub stars](https://img.shields.io/github/stars/zed-industries/zed?style=social&color=white)](https://github.com/zed-industries/zed/stargazers) - Blazing-fast, GPU-accelerated code editor written in Rust with native inline AI completions, agentic sidebars, and local Ollama support.
+* **[Void](https://github.com/voideditor/void)** [![GitHub stars](https://img.shields.io/github/stars/voideditor/void?style=social&color=white)](https://github.com/voideditor/void/stargazers) - Open-source alternative to Cursor built on VS Code, providing complete privacy, zero telemetry, and direct support for both local and cloud LLMs.
+* **[Melty](https://github.com/meltylabs/melty)** [![GitHub stars](https://img.shields.io/github/stars/meltylabs/melty?style=social&color=white)](https://github.com/meltylabs/melty/stargazers) - Lightweight open-source AI code editor that tracks every keystroke and AI generation directly into clean Git commits for transparent review.
 
-1. Fork the repository.
+---
 
-2. Add your project under the appropriate category with a concise description.
+## 📈 Star History
 
-3. Submit a Pull Request.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Lightweight-AI-Coding-Assistant&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated collection of lightweight AI coding tools! If this repository has helped streamline your developer workflow, saved memory on your workstation, or accelerated your coding speed:
+
+- 🌟 **Star this repository** on GitHub to help other developers discover lightweight AI tools.
+- 🍴 **Fork and share** the project with your team and coding communities.
+- ☕ **Buy me a coffee & support ongoing curation**: Consider sponsoring the project via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Your sponsorship helps keep this directory continuously tested, up-to-date, and free of bloat!
+
+---
+
+## 🤝 Contributing
+
+Contributions are warmly welcomed! If you have built or discovered an outstanding lightweight open-source coding assistant, terminal pair programmer, or local FIM engine:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive feature branch (`git checkout -b add-my-tool`).
+3. ✍️ Add your project under the matching category with a concise, neutral description and proper repository link.
+4. 🚀 Submit a Pull Request with details about why the tool fits the lightweight philosophy.
